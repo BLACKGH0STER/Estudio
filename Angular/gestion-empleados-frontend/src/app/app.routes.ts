@@ -11,7 +11,6 @@ export const routes: Routes = [
     {path: 'registrar-empleado', component: RegistrarEmpleadoComponent},
     {path: 'actualizar-empleado/:id', component: ActualizarEmpleadoComponent},
     {path: 'empleado-detalles/:id', component: EmpleadoDetallesComponent}
-
 ];
 
 @NgModule({

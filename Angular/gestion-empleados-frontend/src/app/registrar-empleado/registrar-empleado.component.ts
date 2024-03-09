@@ -4,12 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { EmpleadoService } from '../empleado.service';
 import { Router } from '@angular/router';
 import { RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 
 @Component({
   selector: 'app-registrar-empleado',
   standalone: true,
-  imports: [FormsModule, RouterLink],
+  imports: [FormsModule, RouterLink, CommonModule],
   templateUrl: './registrar-empleado.component.html',
   styleUrl: './registrar-empleado.component.css',
   providers: [EmpleadoService]
